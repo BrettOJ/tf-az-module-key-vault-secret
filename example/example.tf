@@ -66,7 +66,7 @@ module "azurerm_key_vault_secret" {
     source = "../"
     key_vault_secrets = {
         001 = {
-        name         = "secret-sauce"
+        key         = "secret-sauce"
         value        = "szechuan"
             }
     }
