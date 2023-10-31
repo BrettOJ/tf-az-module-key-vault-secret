@@ -21,7 +21,7 @@ variable "tags" {
 }
 variable "key_vault_secrets" {
   type = map(object({
-    name   = string
+    key   = string
     value = string
   }))
 }
